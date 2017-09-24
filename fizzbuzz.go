@@ -1,12 +1,11 @@
 //worksheet problem 3
 //@Author Kevin Gleeson
-
+//date 19/09/2017
 
 package main
 
-import (
-"fmt"
-)
+import "fmt"
+
 
 func main(){
 	
