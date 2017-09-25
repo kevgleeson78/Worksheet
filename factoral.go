@@ -19,18 +19,18 @@ func factoral(n uint64) (r *big.Int) {
 	return
 }
 
-/*func add(number *big.Int) *big.Int {
-
+func add(number *big.Int) *big.Int {
 	ten := big.NewInt(10)
-	div := number.Div(number, ten)
-	mod := number.Mod(number, ten)
-
-	return number.Add(mod, div)
-
+	sum := big.NewInt(0)
+	mod := big.NewInt(0)
+	for ten.Cmp(number) < 0 {
+		sum.Add(sum, mod.Mod(number, ten))
+		number.Div(number, ten)
+	}
+	sum.Add(sum, number)
+	return sum
 }
-*/
 func main() {
-
-	fmt.Println(factoral(20))
+	fmt.Println(add(factoral(100)))
 
 }
