@@ -15,9 +15,9 @@ func palindrome(str string) string {
 	newWord := string(word)
 
 	if newReverse == newWord {
-		return "the word you entered a palindrome"
+		return "the word you entered is a palindrome"
 	}
-	return "the word you entered  is not a palindrome"
+	return "the word you entered is not a palindrome"
 
 }
 func main() {
