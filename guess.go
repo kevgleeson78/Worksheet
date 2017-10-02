@@ -1,3 +1,7 @@
+//worksheet problem 5
+//@Author Kevin Gleeson
+//date 19/09/2017
+
 package main
 
 import (

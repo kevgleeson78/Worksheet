@@ -1,7 +1,7 @@
 //Problem sheet 9
 //Newtons Method
 //@author Kevin Gleeson 30/09/17
-
+//Date: 30/09/17
 package main
 
 //import math and fmt
@@ -11,7 +11,7 @@ import "math"
 //recursive funtion to take in inital values for x and z
 
 func newton(x, z float64) float64 {
-	// formula fro newtons method
+	// formula for newtons method
 	z_next := z - ((z*z - x) / (2 * z))
 	//print out each result of the calculation
 	fmt.Printf("|%0v|\n", z_next)

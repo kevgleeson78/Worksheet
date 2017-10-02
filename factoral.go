@@ -35,14 +35,17 @@ func factoral(n uint64) (r *big.Int) {
 
 //function for adding the result of the factoral function
 func add(number *big.Int) *big.Int {
-	//three variables
+	//three variables declared for function
 	ten := big.NewInt(10)
 	sum := big.NewInt(0)
 	mod := big.NewInt(0)
+	//loop for adding the digits of teh number
 	for ten.Cmp(number) < 0 {
+		//get the remainder of the number
 		sum.Add(sum, mod.Mod(number, ten))
 		number.Div(number, ten)
 	}
+	//add and retun the result of the loop
 	sum.Add(sum, number)
 	return sum
 }
