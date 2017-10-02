@@ -9,7 +9,7 @@ import (
 	"fmt"
 )
 
-//function to take in teo perams
+//function to take in two perameters
 func minMax() (min int, max int) {
 	//new list created
 	l := list.New()

@@ -23,7 +23,7 @@ func factoral(n uint64) (r *big.Int) {
 	r = big.NewInt(1)
 	//for loop different to standard
 	//i:=1 ; i <= bn; i++;
-	//when is  == bn the loop will stop
+	//when i is  == bn the loop will stop
 	for i := big.NewInt(1); i.Cmp(bn) <= 0; i.Add(i, one) {
 		//multiply r * i store in r for next itteration
 		//until condition is met
@@ -50,6 +50,6 @@ func add(number *big.Int) *big.Int {
 	return sum
 }
 func main() {
-	fmt.Println(add(factoral(10)))
+	fmt.Println(add(factoral(100)))
 
 }

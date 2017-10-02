@@ -1,7 +1,8 @@
 //Problem sheet 9
 //Newtons Method
-//@author Kevin Gleeson 30/09/17
+//@author Kevin Gleeson
 //Date: 30/09/17
+
 package main
 
 //import math and fmt
