@@ -1,5 +1,8 @@
 //worksheet problem 2
+//print time to user
 //@Author Kevin Gleeson
+//URL: https://github.com/kevgleeson78/Worksheet
+//19/09/2017
 //Scource https://tour.golang.org/welcome/4
 
 package main

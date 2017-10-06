@@ -1,7 +1,9 @@
 //worksheet problem 5
+//Guessing Game
 //@Author Kevin Gleeson
+//URL: https://github.com/kevgleeson78/Worksheet
 //date 19/09/2017
-
+//source https://play.golang.org/p/ZdFpbahgC1
 package main
 
 import (

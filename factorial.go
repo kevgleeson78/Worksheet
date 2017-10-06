@@ -1,9 +1,8 @@
 //Problem Sheet 4
-//Factoral
+//Factorial number and sum of digits
 //Author: Kevin Gleeson
 //URL: https://github.com/kevgleeson78/Worksheet
-//Source:
-//https://stackoverflow.com/questions/11270547/go-big-int-factorial-with-recursion
+//Source:https://stackoverflow.com/questions/11270547/go-big-int-factorial-with-recursion
 //Date 30/09/17
 
 package main
@@ -15,7 +14,7 @@ import (
 )
 
 // factoral function using BigInts
-func factoral(n uint64) (r *big.Int) {
+func factorail(n uint64) (r *big.Int) {
 	//declare two variables bn from function input
 	one, bn := big.NewInt(1), new(big.Int).SetUint64(n)
 	//declare r for multiplying in loop
@@ -33,7 +32,7 @@ func factoral(n uint64) (r *big.Int) {
 	return
 }
 
-//function for adding the result of the factoral function
+//function for adding the result of the factorial function
 func add(number *big.Int) *big.Int {
 	//three variables declared for function
 	ten := big.NewInt(10)
@@ -50,6 +49,6 @@ func add(number *big.Int) *big.Int {
 	return sum
 }
 func main() {
-	fmt.Println(add(factoral(100)))
+	fmt.Println(add(factorail(100)))
 
 }

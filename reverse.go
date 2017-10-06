@@ -1,5 +1,7 @@
 //worksheet problem 10
+//Reverse String
 //@Author Kevin Gleeson
+//URL: https://github.com/kevgleeson78/Worksheet
 //date 30/09/2017
 
 package main
@@ -29,5 +31,5 @@ func reverse(str string) string {
 }
 func main() {
 	//Input string to reverse and print out
-	fmt.Println(reverse("kevin"))
+	fmt.Println(reverse("kevin is here"))
 }

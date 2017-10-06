@@ -1,7 +1,9 @@
 //worksheet problem 3
+//Fizzbuzz
 //@Author Kevin Gleeson
+//URL: https://github.com/kevgleeson78/Worksheet
 //date 19/09/2017
-
+//source http://wiki.c2.com/?FizzBuzzTest
 package main
 
 import "fmt"

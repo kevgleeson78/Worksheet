@@ -1,7 +1,7 @@
 //worksheet problem 7
 //@Author Kevin Gleeson
 //date 19/09/2017
-
+//source https://www.systutorials.com/qa/2167/in-golang-how-to-convert-string-to-unicode-rune-array-and-back
 package main
 
 import (
@@ -12,6 +12,7 @@ import (
 func palindrome(str string) string {
 	//initialize two variables
 	//to be able to manipulate them in a loop the rune[] is needed
+	//cast str to rune[]
 	word := []rune(str)
 	reverse := []rune{}
 	// loop through the word and append the character
@@ -32,6 +33,7 @@ func palindrome(str string) string {
 
 }
 func main() {
-	//Input word for test
-	fmt.Println(palindrome("moooooom"))
+	//Pass string into function
+	fmt.Println(palindrome("frerf"))
+
 }

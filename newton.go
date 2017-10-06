@@ -1,6 +1,7 @@
 //Problem sheet 9
 //Newtons Method
 //@author Kevin Gleeson
+//URL: https://github.com/kevgleeson78/Worksheet
 //Date: 30/09/17
 
 package main
@@ -32,6 +33,6 @@ func main() {
 	//initialis z to 1.0
 	z := 1.0
 	//send first entries to function
-	newton(3333333, z)
+	newton(9, z)
 
 }
